@@ -1,0 +1,24 @@
+{
+  "name": "mystock",
+  "version": "1.0.0",
+  "description": "a custom search for iPhone 7 Plus in black 128GB on Tmobile ",
+  "main": "istock.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/standardhuman/mystock.git"
+  },
+  "author": "Brian Cline",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/standardhuman/mystock/issues"
+  },
+  "homepage": "https://github.com/standardhuman/mystock#readme",
+  "dependencies": {
+    "browser-request": "^0.3.3",
+    "jquery": "^3.1.1",
+    "request": "^2.75.0"
+  }
+}

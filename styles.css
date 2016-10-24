@@ -1,0 +1,40 @@
+form {
+    /* Just to center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* To see the outline of the form */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 2em;
+}
+form div + div {
+    margin-top: 1em;
+}
+label {
+    /* To make sure that all labels have the same size and are properly aligned */
+}
+input, textarea{
+    /*To make sure that all text fields have the same font settings. By default, testareas have a monospace font*/
+    font: 1 em sans-serif;
+
+    /*To give the same size to all text field*/
+
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* To harmonize the look and feel of text filed border */
+    border : 1px solid #999
+}
+div.title {
+    width: 150px;
+    text-align: left;
+    font: 1 em sans-serif;
+    font-weight: bold;
+}
+div.inputs {
+    display: inline-block;
+    text-align: left;
+}
+.input{
+    align-items: center;
+}
